@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/fondo"
+    tools:context="com.tarea.carlos.tarea.ConfirmarDatos">
+
+    <TextView
+        android:id="@+id/tvTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo_confirmacion"
+        android:textSize="@dimen/titulo_confirmacion"
+        android:layout_marginLeft="@dimen/titulo_confirmacion_margen_izq"
+        android:layout_marginTop="@dimen/margen_arriba_btn"/>
+
+    <TextView
+        android:id="@+id/tvNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/texto_nombre"
+        android:layout_marginTop="@dimen/margen_arriba_btn"
+        android:textSize="@dimen/texto_boton"
+        android:layout_marginLeft="@dimen/margen"/>
+
+    <TextView
+        android:id="@+id/tvFecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/texto_nacimiento"
+        android:layout_marginTop="@dimen/margen"
+        android:textSize="@dimen/texto_boton"
+        android:layout_marginLeft="@dimen/margen"/>
+
+    <TextView
+        android:id="@+id/tvTelefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/texto_telefono"
+        android:layout_marginTop="@dimen/margen"
+        android:textSize="@dimen/texto_boton"
+        android:layout_marginLeft="@dimen/margen"/>
+
+    <TextView
+        android:id="@+id/tvEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/texto_email"
+        android:layout_marginTop="@dimen/margen"
+        android:textSize="@dimen/texto_boton"
+        android:layout_marginLeft="@dimen/margen"/>
+
+    <TextView
+        android:id="@+id/tvDescripcion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/texto_descripcion"
+        android:layout_marginTop="@dimen/margen"
+        android:textSize="@dimen/texto_boton"
+        android:layout_marginLeft="@dimen/margen"/>
+
+    <Button
+        android:id="@+id/btnEditar"
+        android:layout_width="@dimen/ancho_btn_editar"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_editar"
+        android:textSize="@dimen/texto_boton"
+        android:layout_marginTop="@dimen/margen_arriba_editar"
+        android:layout_marginLeft="@dimen/margen_izq_editar"
+        style="@style/MiBotonRaised"/>
+
+</LinearLayout>

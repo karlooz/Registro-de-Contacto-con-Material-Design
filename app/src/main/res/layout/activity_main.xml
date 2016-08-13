@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/fondo"
+    tools:context="com.tarea.carlos.tarea.MainActivity">
+
+    <android.support.design.widget.TextInputEditText
+        android:id="@+id/tiNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/texto_nombre"/>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cvFechaNacimiento"
+        android:layout_width="@dimen/cv_ancho"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/margen">
+
+        <LinearLayout
+            android:id="@+id/llCalendario"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvCalendario"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/texto_nacimiento"
+                android:textSize="@dimen/texto_nacimiento"
+                android:layout_marginTop="@dimen/margen"
+                android:layout_marginBottom="@dimen/margen"
+                android:layout_marginLeft="@dimen/margen" />
+
+            <DatePicker
+                android:id="@+id/dpNacimiento"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:calendarTextColor="@color/colorAccent"
+                android:calendarViewShown="false"></DatePicker>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.design.widget.TextInputEditText
+        android:id="@+id/tiTelefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/texto_telefono"
+        android:layout_marginTop="@dimen/margen"/>
+
+    <android.support.design.widget.TextInputEditText
+        android:id="@+id/tiEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/texto_email"
+        android:layout_marginTop="@dimen/margen"/>
+
+    <android.support.design.widget.TextInputEditText
+        android:id="@+id/tiDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/texto_descripcion"
+        android:layout_marginTop="@dimen/margen"/>
+
+    <Button
+        android:id="@+id/btnSiguiente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_siguiente"
+        android:textSize="@dimen/texto_boton"
+        android:layout_marginTop="@dimen/margen_arriba_btn"
+        style="@style/MiBotonRaised"
+        android:onClick="btnPresionado"/>
+
+</LinearLayout>
+

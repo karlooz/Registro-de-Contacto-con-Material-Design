@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Registro de Contactos</string>
+    <string name="texto_nombre">Nombre completo</string>
+    <string name="texto_nacimiento">Fecha de Nacimiento</string>
+    <string name="texto_telefono">Telefono</string>
+    <string name="texto_email">Email</string>
+    <string name="texto_descripcion">Descripción contacto</string>
+    <string name="btn_siguiente">Siguiente</string>
+    <string name="titulo_confirmacion">Confirmar Datos</string>
+    <string name="btn_editar">Editar Datos</string>
+</resources>
